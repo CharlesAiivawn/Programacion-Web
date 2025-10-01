@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    
+</head>
+<body>
+    <span class="material-symbols-outlined">menu</span>
+    <table >
+    <tr id="dias">
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th> 
+        <th>Viernes</th>
+    </tr>
+    <tr>
+        <th>7:00-8:00</th>
+        <td>Programacion web <span>A1S5</span></td>
+        <td>Programacion web <span>A1S5</span></td>
+        <td>Programacion web <span>A1S5</span></td>
+        <td>Programacion web <span>A1S5</span></td>
+        <td>Programacion web <span>A1S5</span></td>
+    </tr>
+    <tr>
+        <th>8:00-9:00</th>
+        <td>Fundamentos de telecomunicaciones <span>A1S1</span></td>
+        <td>Fundamentos de telecomunicaciones <span>A1S1</span></td>
+        <td>Fundamentos de telecomunicaciones <span>H302</span></td>
+        <td>Fundamentos de telecomunicaciones <span>H302</span></td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>9:00-10:00</th>
+        <td>Sistemas Operativos <span>A1S4</span></td>
+        <td>Sistemas Operativos <span>A1S4</span></td>
+        <td>-</td>
+        <td>Sistemas Operativos <span>A1S4</span></td>
+        <td>Sistemas Operativos <span>A1S4</span></td>
+    </tr>
+    <tr>
+        <th>10:00-11:00</th>
+        <td>Tutorias</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>11:00-12:00</th>
+        <td>Principios electricos <span>H303</span></td>
+        <td>Principios electricos <span>H303</span></td>
+        <td>Principios electricos <span>A1S3</span></td>
+        <td>Principios electricos <span>A1S3</span></td>
+        <td>Principios electricos <span>A1S3</span></td>
+    </tr>
+    <tr>
+        <th>12:00-1:00</th>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>1:00-2:00</th>
+        <td>-</td>
+        <td>Graficacion <span>A1S8</span></td>
+        <td>Graficacion <span>A1S8</span></td>
+        <td>Graficacion <span>A1S8</span></td>
+        <td>Graficacion <span>A1S8</span></td>
+    </tr>
+    <tr>
+        <th>2:00-3:00</th>
+        <td>Ingenieria en software <span>A1S3</span></td>
+        <td>Ingenieria en software <span>A1S3</span></td>
+        <td>Ingenieria en software <span>A1S3</span></td>
+        <td>Ingenieria en software <span>A1S3</span></td>
+        <td>Ingenieria en software <span>A1S3</span></td>
+    </tr>
+    </table>
+</body>
+<style>
+    *{
+        font-family: "Rajdhani", sans-serif;
+        
+        font-style: normal;
+    }
+   table{
+    border: 2px solid black; 
+    background:linear-gradient(#331316,#070a11);
+    border-collapse: collapse;
+    
+   }
+   td span{
+    visibility: hidden;
+    
+   }
+  td:hover span{
+    visibility: visible;
+}
+   td,th,tr{
+   text-align: center;
+   color: #c6504b;
+   justify-content: center;
+   height: 30px;
+
+   }
+   th{
+    font-weight: 700;
+    width: 300px;
+   }
+   td{
+    font-weight:500;
+   }
+   #dias{
+    border: 2px solid #f26a6f;
+   }
+   th:hover,td:hover{
+    background:rgba(12,12,16,.1);
+    border: 2px solid #59d8db;
+    color: #59d8db;
+   }
+</style>
+</html>
