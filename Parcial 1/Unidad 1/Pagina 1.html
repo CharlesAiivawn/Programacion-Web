@@ -15,10 +15,11 @@
     <p>Asi es como la tecnologia esta avanzando</p>
     <div>
       <img id="tecnologia" src="https://pbs.twimg.com/media/GxMnY0mXUAALecO.jpg" alt="La tecnologia no avanzo lo suficiente. Error de imagen">
-    <img id="tuntuntun" src="https://pbs.twimg.com/media/GwrJpKEWYAAz3Jo.jpg" alt="">
+    <img id="tuntuntun" src="https://pbs.twimg.com/media/GwrJpKEWYAAz3Jo.jpg  " alt="">
     </div>
     <p>asi es como la tecnología esta avanzando observa este nuevo robot como le ayuda en todo lo que ella necesita es increible la manera de como hace</p>
     <a href="https://www.tiktok.com/@muk.z6/video/7471540738606599429?q=tralalero%20tralala%20car&t=1756815437379">Robot</a>
+    <button id="boton-evento">Click Aqui</button>
 </body>
 <style>
 #header{
@@ -51,6 +52,15 @@ p{
   color: black;
   font-style: Arial;
 } 
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 255);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 2px 2px 0px 0px black;
+  font-size: 20px;
+  text-decoration: none;}
 a{
 font-family: Arial, Helvetica, sans-serif;
   background-color: red;
@@ -80,4 +90,13 @@ a:hover{
 }
 
 </style>
+<script>
+  document.getElementById("boton-evento").onclick = function() {
+    let img = document.createElement("img");
+    document.body.appendChild(img);
+    img.src = "https://pbs.twimg.com/media/GwrJpKEWYAAz3Jo.jpg  ";
+    img.style.height = '100px';
+    img.style.width = '100px';
+  };
+</script>
 </html>
