@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "type": "module",
+    "cowsay": "^1.6.0",
+    "i": "^0.3.7"
+    
+  }
+}
