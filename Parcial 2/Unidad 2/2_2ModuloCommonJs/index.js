@@ -1,9 +1,9 @@
-import cowsay from "cowsay";
+const cowsay = require("cowsay");
 
-console.log(cowsay.say({
-    text : "Muuuh",
-    e : "- -",
-    T : "U "
-}))
-
-// or cowsay.think()
+console.log(
+  cowsay.say({
+    text: "Muuuh",
+    e: "- -",
+    T: "U "
+  })
+);
