@@ -11,6 +11,12 @@ function request() {
     peticion.open("GET", "https://picsum.photos/200", true);
     peticion.send();
 };
-
+function requestFetch(){
+fetch('https://api.chucknorris.io/jokes/random')
+.then(response => response.json())
+.then(response => console.log(response))
+.catch(err => console.error(err));
+};
 //Eventos
 document.getElementById("btn").addEventListener("click", request);
+document.getElementById("btn2").addEventListener("click", requestFetch)
