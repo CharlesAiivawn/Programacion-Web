@@ -17,6 +17,13 @@ fetch('https://api.chucknorris.io/jokes/random')
 .then(response => console.log(response))
 .catch(err => console.error(err));
 };
+
+async function requestFetchAsync(){
+respuesta = await fetch ('https://api.chucknorris.io/jokes/random');
+datojson = await respuesta.json();
+console.log (datojson);
+}
 //Eventos
 document.getElementById("btn").addEventListener("click", request);
-document.getElementById("btn2").addEventListener("click", requestFetch)
+document.getElementById("btn2").addEventListener("click", requestFetch);
+document.getElementById("btn3").addEventListener("click", requestFetchAsync);
